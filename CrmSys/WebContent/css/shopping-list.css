@@ -1,0 +1,170 @@
+.horizon{
+	width: 100%;
+	border: 2px solid #003371;
+}
+.item-box{
+	width: 100%;
+	height: 600px;
+	border-bottom: 1px solid #C6CCC5;
+}
+.item-content{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1226px;
+	height: 100%;
+}
+.item-img{
+	float: left;
+	width: 312px;
+	height: 600px;
+	border-right:1px solid #C6CCC5 ;
+}
+.item-img img{
+	width: 212px;
+	height: 242px;
+	box-shadow: 3px 3px rgba(0,0,0,.2);
+}
+/*.item-img:hover>.big-img{
+	display: block;
+}*/
+/*放大镜*/
+.fangdajing{
+	position: absolute;
+	z-index: 24;
+	width: 50px;
+	height: 50px;
+	background: pink;
+	opacity: 0.6;
+	display: none;
+}
+.big-img{
+	position: absolute;
+	z-index: 24;
+	left: 600px;
+	top:140px;
+	display: none;
+}
+.big-img img{
+	width: 320px;
+	height: 350px;
+}
+.item-img .img{
+	overflow: hidden;
+}
+.item-img ul{
+	margin-top:60px ;
+}
+.item-img li{
+	float:left;
+	margin-right: 15px;
+	text-align: center;
+	color: #003371;
+	cursor: pointer;
+}
+.item-img li:hover{
+	background:#6495ED;
+}
+.item-message{
+	float: left;
+	width: 600px;
+	height: 600px;
+    border-right:1px solid #C6CCC5 ;
+}
+.item-message p{
+	width: 600px;
+	margin-bottom: 10px;
+}
+#book-name{
+	font-size: 24px;
+	
+}
+#book-name span{
+	color: #003371;
+}
+#book-decoration span{
+	color: #003371;
+}
+#book-price span{
+	color: red;
+}
+#booke-number img{
+	vertical-align:middle;
+}
+#booke-number span{
+	color: #003371;
+}
+.buy-btn input{
+	width: 160px;
+	height: 40px;
+	border-radius:10px ;
+	outline: none;
+	border: none;
+}
+ input[value='立即购买']:hover{
+	background: #FFFFFF;
+	border: 1px solid #003371;
+	color: #003371;
+}
+ input[value='加入购物车']:hover{
+	background: #FFFFFF;
+	border: 1px solid #003371;
+	color: #003371;
+}
+ input[value='立即购买']{
+	background:#003371;
+	color: #FFFFFF;
+}
+ input[value='加入购物车']{
+	background: #003371;
+	color: #FFFFFF;
+}
+.seller-mesage{
+	float: left;
+	width: 312px;
+	height: 600px;
+}
+.seller-img-box{
+	width: 312px;
+}
+.seller-img {
+	width: 160px;
+	margin: 0 auto;
+}
+.seller-name{
+	overflow: hidden;
+	width: 312px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px dashed gray;
+	font-size: 14px;
+}
+.seller-list{
+	overflow: hidden;
+	margin-top:10px ;
+	font-size: 12px;
+	border-bottom: 1px dashed gray;
+}
+.seller-list td{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+}
+.message-list{
+	width: 312px;
+	height: 50px;
+	border-bottom: 1px dashed gray;
+}
+.message-list li{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 36px;
+	text-align: center;
+    border: 1px solid #003371;
+    border-radius: 20px;
+}
+.message-list li{
+	cursor: pointer;
+}

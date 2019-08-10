@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/bookcss.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shopping-list.css"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/shopping-list.js">
+			
+		</script>
+	</head>
+	<body>
+		<div class="nav-box">
+		     <div class="nav-content">
+		     	<!--导航栏 -->
+		     	<ul class="nav-list-left">
+		     		<li><a href="">首页</a></li>
+		     		<li>
+		     			<a href="">我的收藏</a>
+		     		</li>
+		     		<li>
+		     			<a href="">购物车<span>(0)</span></a>
+		     		</li>
+		     		<li>
+		     			<a href="">我的订单</a>
+		     		</li>
+		     		<li><a href="">企业采购</a></li>
+		     		<li><a href="">客户服务</a></li>
+		     		<li>
+		     			<a href="">网站导航</a>
+		     		</li>
+		     	</ul>
+		     	<div class="time-box">
+		     		<div class="time-content">
+		     		
+		     		</div>
+		     	</div>
+		     	<ul class="nav-list-right">
+		     		<li id="username"><a href="">登录</a></li>
+		     		<li><a href="">免费注册</a></li>
+		     		<li><a href="">消息</a></li>
+		     	</ul>
+		     </div>
+		    </div>
+		     <!--搜索栏-->
+             	
+		    <div class="search-box">
+       	    <div class="search-content">
+       	    	<div class="logo">
+       	    		
+       	    	</div>
+       	    	<div class="mall-search">
+       	    		<div class="search">
+       	    		  <form>
+       	    		  	  <input type="text" name="" value="搜索一下"  class="txt" style="color: #CCCCCC;"/>
+       	    			  <input type="button" name="" id="" value="搜索" class="btn" />
+       	    		  </form>
+       	    		</div>
+       	    		<div class="hot-query">
+       	    		<ul class="">
+       	    			<li>热搜：</li>
+       	    			<!--
+                           	作者：offline
+                           	时间：2019-05-12
+                           	描述：<li><a href=""></a></li>
+                           -->
+       	    		</ul>
+       	    	    </div>
+       	    	</div>
+       	    </div>
+       	   </div>
+	<!--水平线-->
+	<div class="horizon">
+		
+	</div>
+	<!--商品信息-->
+	<div class="item-box">
+		<div class="item-content">
+			<div class="item-img">
+				<div class="img">
+					<!--需要加载的商品图片-->
+					
+				    <!--放大镜-->
+					<div class="fangdajing">
+						
+					</div>
+				</div>
+				<div class="big-img">
+				<!--需要放大的区域-->
+				    
+				</div>
+				<ul>
+					<li>
+						<i class="far fa-plus-square"></i>
+						分享
+					</li>
+					<li id="shoucang-number">★收藏商品<label>(<span>0</span>)</label></li>
+				</ul>
+			</div>
+			<div class="item-message">
+				<!--商品名称-->
+				<p id="book-name">书名:<span></span></p>
+				<!--商品简介-->
+				<p id="book-decoration">
+				</p>
+				<p id="author">作者:<span></span></p>
+				<p id="copyright">出版社:<span></span></p>
+				<p>配送到:
+					<select name="">
+					    <option value="北京">北京</option>
+					    <option value="广州">广州</option>
+					    <option value="佛山">佛山</option>
+					    <option value="上海">上海</option>
+					    <option value="深圳">深圳</option>
+					    <option value="湖南">湖南</option>
+					    <option value="河北">河北</option>
+					    <option value="福建">福建</option>
+					    <option value="浙江">浙江</option>    
+				    </select>
+				</p>
+				<p id="book-price" style="background: rgba(0,0,0,.1);width: 600px; height: 50px;line-height: 50px;border-radius: 10px;">价格:<span style="font-size: 24px;"></span></p>
+				<p id="booke-number">数量:
+					<img src="img/plus01.gif"/>
+					<span ="">
+						0
+					</span>
+					<img src="img/plus02.gif"/>
+				</p>
+				<div class="buy-btn">
+					<input type="button" id="" value="立即购买" />
+					<input type="button" id="" value="加入购物车" />
+				</div>
+			</div>
+			<div class="seller-mesage">
+				<div class="seller-img-box">
+					<!--商店的图片-->
+					<div class="seller-img">
+						
+					</div>
+				</div>
+				<div class="seller-name">
+					<p id="seller-name">商店名:<span style="color: #003371"></span></p>
+				</div>
+				<div class="seller-list">
+					<table>
+						<tr>
+							<td>正品保证</td>
+							<td>服务支持</td>
+						</tr>
+						<tr>
+							<td>差价返还</td>
+							<td>15天退货</td>
+						</tr>
+						<tr>
+							<td>礼品包装</td>
+						</tr>
+						<tr>
+							<td>支持礼品卡</td>
+						</tr>
+					</table>
+				</div>
+				<div class="message-list">
+					<ul>
+						<li>进入店铺</li>
+						<li>收藏店铺</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
+<!--
+	作者：offline
+	时间：2019-05-12
+	描述：需要获取的数据有图片，书名，简介，作者，价格，出版社，商店名，商店图片
+-->
